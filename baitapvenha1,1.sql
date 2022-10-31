@@ -1,0 +1,3 @@
+﻿insert into dsHang(ma,tenHang,diachi,dienthoai)
+values ('123' , 'Asus' ,'USA' ,'0983232');select * from dsHang;
+insert into dsSanPham(tenSP,mota,donvi,gia,soluong)values (N'Máy Tín T450', N'Máy nhập cũ', N'Chiếc' ,'1000','10'),       (N'Điện Thoại Nokia5670', N'Điện thoại đang hot', N'Chiếc' ,'200','200'),       (N'Máy In Samsung 450', N'Máy in đang loại bình', N'Chiếc' ,'100','10')select * from dsSanPham;insert into dsHangSanPham(maH,idSP)values ('123','1'),       ('123','2'),	   ('123','3')select * from dsHangSanPham
